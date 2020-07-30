@@ -14,6 +14,7 @@ export default function AddTodo({ submitHandler }) {
                 style={StyleSheet.input}
                 placeholder='new todo'
                 onChangeText={changeHandler}
+                // autoCapitalize='sentences'
             />
             <Button onPress={() => submitHandler(text)} title='Add Todo' color='coral' />
         </View>
