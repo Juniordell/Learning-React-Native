@@ -8,6 +8,7 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+Scroll.js
 
 # macOS
 .DS_Store
